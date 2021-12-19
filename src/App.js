@@ -5,6 +5,7 @@ function App() {
     <div className="App">
       <div>VIMEO</div>
       <iframe
+        title="vimeo"
         src="https://player.vimeo.com/video/225408543?h=b826dd2175"
         width="640"
         height="338"
@@ -24,6 +25,7 @@ function App() {
       ></iframe>
       <div>VIMEO (no dimensions)</div>
       <iframe
+        title="vimeo"
         src="https://player.vimeo.com/video/225408543?h=b826dd2175"
         frameborder="0"
         allow="autoplay; fullscreen; picture-in-picture"
@@ -39,6 +41,7 @@ function App() {
       ></iframe>
       <div>VIMEO (too narrow)</div>
       <iframe
+        title="vimeo"
         src="https://player.vimeo.com/video/225408543?h=b826dd2175"
         width="100"
         height="315"
@@ -58,6 +61,7 @@ function App() {
       ></iframe>
       <div>VIMEO (too wide)</div>
       <iframe
+        title="vimeo"
         src="https://player.vimeo.com/video/225408543?h=b826dd2175"
         width="315"
         height="100"
